@@ -31,6 +31,7 @@ namespace ConsoleApp1
                     flag = 0;
                 }
                 min++;
+                flag=0;
                 
             }
         }
