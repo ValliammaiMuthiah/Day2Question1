@@ -10,10 +10,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int max=0, min=0,i=0,flag=0;
+            int max = 0, min = 0, i = 0, flag = 0;
             Console.WriteLine("Enter The Limits");
-            max=Convert.ToInt32(Console.ReadLine( ));
-            min= Convert.ToInt32(Console.ReadLine( ));
+            max = Convert.ToInt32(Console.ReadLine());
+            min = Convert.ToInt32(Console.ReadLine());
             while (min <= max)
             {
                 Console.WriteLine("Enter The Limits");
@@ -25,14 +25,14 @@ namespace ConsoleApp1
                         break;
                     }
                 }
-                if (flag == 1)
+                if (flag == 0)
                 {
                     Console.WriteLine(min);
                     flag = 0;
                 }
                 min++;
-            }
+                
             }
         }
     }
-
+}
